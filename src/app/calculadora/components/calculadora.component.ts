@@ -51,7 +51,7 @@ export class CalculadoraComponent implements OnInit {
    * @param string numConcat
    * @return string
    */
-  concatenarNumero(numAtual:String, numConcat:string): string {
+  concatenarNumero(numAtual:string, numConcat:string): string {
     //caso contenha apenas '0' ou null, reinicia o valor
     if (numAtual === '0' || numAtual === null) {
       numAtual = '';
